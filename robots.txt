@@ -1,0 +1,27 @@
+User-agent: *
+Allow: /
+Allow: /sitemap.xml
+Allow: /about
+Allow: /ministries
+Allow: /events
+Allow: /watch-live
+Allow: /contact
+Allow: /sermons
+Allow: /giving
+Allow: /calendar
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/themes/
+Disallow: /wp-content/cache/
+Disallow: /wp-content/uploads/private/
+
+# Sitemap location
+Sitemap: https://pceazimmerman.co.ke/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 10 
